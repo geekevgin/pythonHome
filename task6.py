@@ -1,7 +1,6 @@
-first_day = int(input('Расстояние в первый день тренировок:'))
-last_day = int(input('Конечная цель:'))
-days = 1
-while first_day < last_day:
-    first_day *= 1.1
-    days += 1
-    print(f'Требуемое количество дней для достижения цели :{days}')
+team_str = input('What is your favorite football team?: ')
+period_int = int(input('How many years have you rooted for it?: '))
+period_float = float(period_int)
+print(period_float)
+text_formatted = f'So you have rooted for {team_str} for {period_int} years'
+print(text_formatted)
