@@ -5,8 +5,8 @@ def my_func_pow(x, y):
 print(my_func_pow(10, -3))
 
 def my_func_pow_1(x, y):
-    z = 1
+    a = 1
     for i in range(abs(y)):
-        z = z * x
-    return 1/z
+        a = a * x
+    return 1/a
 print(my_func_pow_1(2, - 4))
