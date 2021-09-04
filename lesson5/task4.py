@@ -1,8 +1,8 @@
 rus_num = {
-    'One': 'Один',
-    'Two': 'Два',
-    'Three': 'Три',
-    'Four':'Четыре'
+    'One': 'один',
+    'Two': 'два',
+    'Three': 'три',
+    'Four':'четыре'
 }
 rus_file = []
 with open ('text_task4.txt') as file:

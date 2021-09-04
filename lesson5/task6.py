@@ -12,13 +12,13 @@ with open('text_task6.txt') as file:
     file_lines = file.readlines()
     for line in file_lines:
         subj_info = line.split
-        hours = 0
+        hour = 0
         for elem in subj_info[1:]:
             if elem != '-':
                 num = 0
                 for i in elem:
                     if i.isdigit():
                         num = num + i
-                        hours = hours = int(num)
-        subjects.update({subj_info[0]:hours})
+                        hour = hour = int(num)
+        subjects.update({subj_info[0]:hour})
 print(subjects)
