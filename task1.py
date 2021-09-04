@@ -1,4 +1,4 @@
-first_day = int(input('Расстояние в первый день тренировок:'))
+first_day = int(input('Расстояние в км в первый день тренировок:'))
 last_day = int(input('Конечная цель:'))
 days = 1
 while first_day < last_day:
