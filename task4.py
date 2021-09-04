@@ -1,4 +1,4 @@
-n = int(input('Введите число:'))
+n = int(input('Введите любое число: '))
 div = 1
 max_digit = 0
 num_of_it = 0
