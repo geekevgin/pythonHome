@@ -1,7 +1,7 @@
 from time import sleep
 
 class TrafficLight:
-    __color = ['Red', 'Yellow', 'Green']
+    __color = ['red', 'yellow', 'green']
 
     def running(self):
         i = 0

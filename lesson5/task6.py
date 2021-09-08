@@ -1,4 +1,10 @@
-# subjects = {}
+#
+                    if i.isdigit():
+                        num = num + i
+                        hour = hour = int(num)
+        subjects.update({subj_info[0]:hour})
+print(subjects)
+ subjects = {}
 # with open('text_task6.txt') as file:
 #     file_lines = file.readlines()
 #     for line in file_lines:
@@ -17,8 +23,3 @@ with open('text_task6.txt') as file:
             if elem != '-':
                 num = 0
                 for i in elem:
-                    if i.isdigit():
-                        num = num + i
-                        hour = hour = int(num)
-        subjects.update({subj_info[0]:hour})
-print(subjects)

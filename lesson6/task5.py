@@ -22,9 +22,9 @@ class Hadle(Stationery):
     def draw(self):
         return "You have taken a hadle"
 
-pen = Pen('Pen')
-pencill = Pencill('Pencill')
-handle = Hadle('Handle')
+pen = Pen('pen')
+pencill = Pencill('pencill')
+handle = Hadle('handle')
 
 print(pen.draw())
 print(pencill.draw())

@@ -6,8 +6,8 @@ class Road:
     def __init__(self, length, width):
         self._length = length
         self._width = width
-    def mass(self):
+    def weigth(self):
         return self._length * self._width * self.__weight_of_concrete * self.__thick_of_concrete
 
 road= Road(5000, 20)
-print(road.mass())
+print(road.weigth())

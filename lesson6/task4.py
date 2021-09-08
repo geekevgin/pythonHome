@@ -14,7 +14,7 @@ class Car:
         return "You have turned left"
 
     def turn_right(self):
-        return "You have turnrf right"
+        return "You have turned right"
 
     def show_speed(self):
         return "You current speed is {self.speed}"

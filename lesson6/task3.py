@@ -11,7 +11,7 @@ class Position(Workers):
 
     def get_total_income(self):
         return self._income["wage"] + self._income["bonus"]
-worker = Position('Luka', 'Lukovich', 'Bookkeeper', 1000, 100)
+worker = Position('Luka', 'Lukovich', 'bookkeeper', 1000, 100)
 print(worker.name)
 print(worker.surname)
 print(worker.position)
